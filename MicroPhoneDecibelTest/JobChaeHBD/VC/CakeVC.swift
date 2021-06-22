@@ -125,7 +125,6 @@ class CakeVC: UIViewController {
         //뷰 전환
         let letterVC = (self.storyboard?.instantiateViewController(identifier: "LetterVC"))! as LetterVC
         self.navigationController?.pushViewController(letterVC, animated: true)
-        print("hihi")
     }
     /*
      // MARK: - Navigation
