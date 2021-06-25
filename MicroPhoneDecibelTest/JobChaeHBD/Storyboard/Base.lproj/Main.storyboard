@@ -26,22 +26,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image 1" translatesAutoresizingMaskIntoConstraints="NO" id="Y6W-wx-aDA">
-                                <rect key="frame" x="0.0" y="-31" width="375" height="511"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="511" id="B9U-4g-9tJ"/>
-                                    <constraint firstAttribute="width" secondItem="Y6W-wx-aDA" secondAttribute="height" multiplier="375:511" id="fVr-lf-xPp"/>
-                                </constraints>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image 1" translatesAutoresizingMaskIntoConstraints="NO" id="G2j-8P-n14">
-                                <rect key="frame" x="0.0" y="356" width="375" height="511"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="G2j-8P-n14" secondAttribute="height" multiplier="375:511" id="Bs8-cc-3dy"/>
-                                    <constraint firstAttribute="height" constant="511" id="Ixv-1m-pdL"/>
-                                </constraints>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash" translatesAutoresizingMaskIntoConstraints="NO" id="G2j-8P-n14">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group 1 (1)" translatesAutoresizingMaskIntoConstraints="NO" id="miZ-in-Uht">
-                                <rect key="frame" x="87.666666666666686" y="311" width="200" height="200"/>
+                                <rect key="frame" x="87.666666666666686" y="244" width="200" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="miZ-in-Uht" secondAttribute="height" multiplier="1:1" id="R3g-uD-DOz"/>
                                     <constraint firstAttribute="width" constant="200" id="pti-fN-Iub"/>
@@ -51,15 +40,14 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="G2j-8P-n14" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="312" id="D9v-eJ-G33"/>
-                            <constraint firstItem="Y6W-wx-aDA" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="L3j-dt-9b3"/>
+                            <constraint firstItem="G2j-8P-n14" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="BpP-MM-HYU"/>
+                            <constraint firstItem="miZ-in-Uht" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="Jo1-ku-zjn"/>
+                            <constraint firstItem="G2j-8P-n14" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="KhD-Iv-GMW"/>
                             <constraint firstItem="G2j-8P-n14" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="LCo-DN-c4Z"/>
                             <constraint firstItem="miZ-in-Uht" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="UgI-0v-0aV"/>
-                            <constraint firstAttribute="bottom" secondItem="G2j-8P-n14" secondAttribute="bottom" constant="-55" id="W1s-s8-8df"/>
-                            <constraint firstItem="Y6W-wx-aDA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WAh-ju-D59"/>
                             <constraint firstItem="G2j-8P-n14" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="aUV-87-Itc"/>
-                            <constraint firstItem="Y6W-wx-aDA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="-31" id="fTh-yN-7yg"/>
-                            <constraint firstItem="miZ-in-Uht" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="scI-xW-qfu"/>
+                            <constraint firstAttribute="bottom" secondItem="G2j-8P-n14" secondAttribute="bottom" id="ceL-Lz-g7Y"/>
+                            <constraint firstItem="G2j-8P-n14" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="d7D-cy-4NL"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="duV-zF-LMH"/>
@@ -542,9 +530,9 @@
         <image name="Group 1 (1)" width="1260" height="1260"/>
         <image name="birthdayCake" width="1920" height="1080"/>
         <image name="chevron.left" catalog="system" width="96" height="128"/>
-        <image name="image 1" width="1125" height="1506"/>
         <image name="message.circle.fill" catalog="system" width="128" height="121"/>
         <image name="message.fill" catalog="system" width="128" height="113"/>
+        <image name="splash" width="1563" height="3384"/>
         <namedColor name="babyPink">
             <color red="1" green="0.82400000095367432" blue="0.82400000095367432" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

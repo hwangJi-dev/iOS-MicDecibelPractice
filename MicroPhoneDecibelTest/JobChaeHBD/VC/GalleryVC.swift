@@ -21,7 +21,7 @@ class GalleryVC: UIViewController {
     
     func setGalleryArray() {
         
-        for i in 1...62 {
+        for i in 1...66 {
             galleryArray.append("\(i)")
         }
     }
