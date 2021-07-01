@@ -166,6 +166,7 @@
                         <outlet property="celebrateLabel" destination="2mT-zf-B8Q" id="VCU-36-zZj"/>
                         <outlet property="dearChaeLabel" destination="oac-u0-CV4" id="aNI-F2-gRo"/>
                         <outlet property="descLabel" destination="lf0-bp-IaA" id="TeF-1X-aRZ"/>
+                        <outlet property="eventLabel" destination="4TB-A4-8Ee" id="QvI-6p-MHb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Arz-go-SAp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -181,7 +182,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To. 정아" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnW-gj-H00">
-                                <rect key="frame" x="37" y="78" width="92" height="25"/>
+                                <rect key="frame" x="36.999999999999993" y="78" width="83.333333333333314" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="25" id="rBX-LH-Z0Q"/>
                                 </constraints>
@@ -190,7 +191,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="From. 티미" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xuz-6d-NlY">
-                                <rect key="frame" x="218" y="740" width="130" height="25"/>
+                                <rect key="frame" x="232.66666666666666" y="740" width="115.33333333333334" height="29.333333333333371"/>
                                 <fontDescription key="fontDescription" name="GmarketSansTTFLight" family="Gmarket Sans TTF" pointSize="25"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -224,7 +225,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3A7-2J-9hx">
-                                                    <rect key="frame" x="236.33333333333334" y="496" width="60.666666666666657" height="20"/>
+                                                    <rect key="frame" x="248" y="496" width="49" height="20"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="20" id="n6t-Fq-fxM"/>
                                                     </constraints>

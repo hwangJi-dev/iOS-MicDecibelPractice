@@ -24,6 +24,7 @@ class CakeVC: UIViewController {
     @IBOutlet var descLabel: UILabel!
     @IBOutlet var candleDescLabel: UILabel!
     @IBOutlet var blowCountLabel: UILabel!
+    @IBOutlet var eventLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -113,6 +114,10 @@ class CakeVC: UIViewController {
             blowingCnt += 1
             blowCountLabel.text = "\(blowingCnt)"
             UserDefaults.standard.set(blowingCnt, forKey: "blowingCnt")
+        }
+        
+        if blowingCnt == 1000 {
+            eventLabel.text = "채정아 1000번 분 것 축하해!"
         }
     }
     
